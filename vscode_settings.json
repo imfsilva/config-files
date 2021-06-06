@@ -1,0 +1,25 @@
+{
+  "workbench.colorTheme": "morgan.codes",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.enablePreview": false,
+  "editor.fontSize": 19,
+  "editor.fontFamily": "'JetBrains Mono', Consolas, Menlo, Monaco, 'Courier New', monospace",
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.fastScrollSensitivity": 4,
+  "editor.renderWhitespace": "none",
+  "explorer.compactFolders": false,
+  "explorer.autoReveal": false,
+  "material-icon-theme.files.associations": { "*.service.js": "javascript" },
+  "window.zoomLevel": 0,
+  "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[vue]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "bracket-pair-colorizer-2.scopeLineCSS": ["borderStyle : none"],
+  "gitlens.views.repositories.files.layout": "list",
+  "gitlens.currentLine.format": "${author}, ${agoOrDate}",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontFamily": "'JetBrains Mono'"
+}
+
