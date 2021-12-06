@@ -1,8 +1,8 @@
 {
-  "workbench.colorTheme": "morgan.codes",
+  "workbench.colorTheme": "Nord",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.enablePreview": false,
-  "editor.fontSize": 19,
+  "editor.fontSize": 17,
   "editor.fontFamily": "'JetBrains Mono', Consolas, Menlo, Monaco, 'Courier New', monospace",
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
@@ -19,7 +19,7 @@
   "bracket-pair-colorizer-2.scopeLineCSS": ["borderStyle : none"],
   "gitlens.views.repositories.files.layout": "list",
   "gitlens.currentLine.format": "${author}, ${agoOrDate}",
-  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontSize": 17,
   "terminal.integrated.fontFamily": "'JetBrains Mono'"
 }
 
