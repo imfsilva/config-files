@@ -821,7 +821,7 @@ colors: *GruvboxDark
 # And optionally:
 #
 # - `mods`: Key modifiers to filter binding actions
-#
+
 #    - Command
 #    - Control
 #    - Option
@@ -854,6 +854,7 @@ key_bindings:
   - { key: V,         mods: Control,       action: Paste                       }
   - { key: C,         mods: Control,       action: Copy                        }
   - { key: C,         mods: Control|Shift, chars: "\x03"                       }
+  - { key: Q,         mods: Control,       action: Quit                        }
   - { key: Insert,    mods: Shift,         action: PasteSelection              }
   - { key: Key0,      mods: Control,       action: ResetFontSize               }
   - { key: Equals,    mods: Control,       action: IncreaseFontSize            }
@@ -868,3 +869,4 @@ key_bindings:
   - { key: PageDown,  mods: None,          action: ScrollPageDown, mode: ~Alt  }
   - { key: Home,      mods: Shift,         action: ScrollToTop,    mode: ~Alt  }
   - { key: End,       mods: Shift,         action: ScrollToBottom, mode: ~Alt  }
+
