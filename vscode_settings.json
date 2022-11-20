@@ -1,21 +1,59 @@
 {
+  "indenticator.color.dark": "rgba(255, 255, 255, .1)",
+
+  "breadcrumbs.enabled": false,
+
+  "window.titleBarStyle": "native",
+  "window.title": "${activeEditorShort}${separator}${rootName}",
+  "window.menuBarVisibility": "toggle",
+  "window.zoomLevel": 1,
+
+  "explorer.compactFolders": false,
+
+  "explorer.autoReveal": false,
+  "explorer.openEditors.visible": 0,
+
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Codely Dark",
-  "workbench.editor.enablePreview": false,
-  "editor.fontSize": 16,
+  "workbench.editor.enablePreview": true,
+  "workbench.activityBar.visible": false,
+  "workbench.editor.showIcons": false,
+  "workbench.statusBar.visible": false,
+  "workbench.colorCustomizations": {
+    "tab.activeBorder": "#0000"
+  },
+
+  "editor.fontSize": 14,
+  "editor.lineHeight": 2.3,
   "editor.fontFamily": "'IBM Plex Mono', Consolas, Menlo, Monaco, 'Courier New', monospace",
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
   "editor.fastScrollSensitivity": 4,
-  "editor.renderWhitespace": "none",
-  "explorer.compactFolders": false,
-  "explorer.autoReveal": false,
-  "window.zoomLevel": 0,
+  "editor.renderWhitespace": "all",
+  "editor.minimap.enabled": false,
+  "editor.renderLineHighlight": "none",
+  "editor.overviewRulerBorder": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.folding": false,
+  "editor.occurrencesHighlight": false,
+  "editor.glyphMargin": false,
+  "editor.scrollBeyondLastLine": false,
+  "editor.cursorBlinking": "blink",
+  "editor.cursorWidth": 3,
+  "editor.guides.indentation": false,
+
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "'IBM Plex Mono'",
+
   "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "[vue]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[scss]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+
   "gitlens.views.repositories.files.layout": "list",
-  "gitlens.currentLine.format": "${author}, ${agoOrDate}",
-  "terminal.integrated.fontSize": 16,
-  "terminal.integrated.fontFamily": "'IBM Plex Mono'"
+  "gitlens.currentLine.format": "${author}, ${agoOrDate}"
 }
