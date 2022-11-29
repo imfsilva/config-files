@@ -1,32 +1,38 @@
 {
   "indenticator.color.dark": "rgba(255, 255, 255, .1)",
 
-  "breadcrumbs.enabled": false,
+  "git.suggestSmartCommit": false,
 
+  "gitlens.views.repositories.files.layout": "list",
+  "gitlens.currentLine.format": "${author}, ${agoOrDate}",
+
+  "breadcrumbs.enabled": true,
+
+  "window.zoomLevel": 1,
   "window.titleBarStyle": "native",
   "window.title": "${activeEditorShort}${separator}${rootName}",
   "window.menuBarVisibility": "toggle",
-  "window.zoomLevel": 1,
 
   "explorer.compactFolders": false,
-  "explorer.autoReveal": false,
+  "explorer.autoReveal": true,
   "explorer.openEditors.visible": 0,
 
-  "workbench.sideBar.location": "right",
-  "workbench.startupEditor": "none",
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Codely Dark",
-  "workbench.editor.enablePreview": true,
-  "workbench.activityBar.visible": false,
-  "workbench.editor.showIcons": false,
   "workbench.statusBar.visible": false,
+  "workbench.activityBar.visible": false,
+  "workbench.colorTheme": "GitHub Dark",
+  "workbench.sideBar.location": "left",
+  "workbench.startupEditor": "none",
+  "workbench.editor.showTabs": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.enablePreview": true,
+  "workbench.editor.showIcons": true,
   "workbench.colorCustomizations": {
     "tab.activeBorder": "#0000"
   },
 
   "editor.fontSize": 14,
   "editor.lineHeight": 2.3,
-  "editor.fontFamily": "'IBM Plex Mono', Consolas, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "'IBM Plex Mono'",
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
   "editor.fastScrollSensitivity": 4,
@@ -35,24 +41,27 @@
   "editor.renderLineHighlight": "none",
   "editor.overviewRulerBorder": false,
   "editor.hideCursorInOverviewRuler": true,
-  "editor.folding": false,
   "editor.occurrencesHighlight": false,
+  "editor.folding": false,
   "editor.glyphMargin": false,
   "editor.scrollBeyondLastLine": false,
   "editor.cursorBlinking": "blink",
-  "editor.cursorWidth": 3,
+  "editor.cursorStyle": "underline",
   "editor.guides.indentation": false,
+  "editor.fontWeight": "500",
+  "editor.showFoldingControls": "always",
+  "editor.inlineSuggest.enabled": true,
 
   "terminal.integrated.fontSize": 14,
-  "terminal.integrated.fontFamily": "'IBM Plex Mono'",
+  "terminal.integrated.fontFamily": "'IBM Plex Mono', Consolas, Menlo, Monaco, 'Courier New', monospace",
+  "terminal.integrated.shell.linux": "/bin/zsh",
 
   "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "[vue]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "[scss]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-
-  "gitlens.views.repositories.files.layout": "list",
-  "gitlens.currentLine.format": "${author}, ${agoOrDate}"
+  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" }
 }
